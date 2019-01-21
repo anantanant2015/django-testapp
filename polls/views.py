@@ -3,6 +3,7 @@ from django.http import HttpResponse, Http404, HttpResponseRedirect
 from .models import Question, Choice
 from django.template import loader
 from django.views import generic
+from django.urls import reverse
 # Create your views here.
 
 # def index(request):
